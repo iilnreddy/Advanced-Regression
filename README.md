@@ -49,13 +49,13 @@ train.txt collected by the company.
 
 ## Conclusions
 -Data understanding
-	1. Dataset is about the housing data, describes various features of the house and target variable is SalePrice
-	2. the shape of the data is (1460, 81), with 1460 rows and 81 features including target variable.
-	3. we have 38 - numeric  and 43 categorical features
+	- Dataset is about the housing data, describes various features of the house and target variable is SalePrice
+	- the shape of the data is (1460, 81), with 1460 rows and 81 features including target variable.
+	- we have 38 - numeric  and 43 categorical features
 -Preperation
 - EDA
 - Model
-	1. Verification of assumptions of linear Regression
+	- Verification of assumptions of linear Regression
 		
 
 
