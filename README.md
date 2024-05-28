@@ -43,7 +43,7 @@ Business Goal
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 - What is the dataset that is being used?
-train.txt collected by the company.
+train.csv collected by the company.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -52,12 +52,20 @@ train.txt collected by the company.
 - Dataset is about the housing data, describes various features of the house and target variable is SalePrice
 - the shape of the data is (1460, 81), with 1460 rows and 81 features including target variable.
 - we have 38 - numeric  and 43 categorical features
-- <b>Preperation</b>
-- <b>EDA</b>
-- <b>Model</b>
-- Verification of assumptions of linear Regression
-		
 
+Ridge – alpha = 1, with 41 features with a R^2(Test) 0.82499
+Alpha: 1, R^2(Train): 0.8206308053471565, R^2(Test): 0.8249970901945431,f-c:41
+Alpha: 2, R^2(Train): 0.8198421576782735, R^2(Test): 0.8251560361589055,f-c:41 (slightly better)
+
+Lasso – alpha = 100 with 41 features with a R^2(Test) 0.8256
+Alpha: 100, R^2(Train): 0.8192046912182973, R^2(Test): 0.825627053987788,f-c:41
+Alpha: 200, R^2(Train): 0.8146813023705348, R^2(Test): 0.8226684383827453,f-c:41 (slightly reduced)
+
+Ridge: 
+Alpha: 2, R^2(Train): 0.8187824573686472, R^2(Test): 0.824026926828994,f-c:36
+Lasso:
+Alpha: 100, R^2(Train): 0.818399697268194, R^2(Test): 0.825052838278836,f-c:36
+		
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
